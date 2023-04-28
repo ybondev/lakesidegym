@@ -372,6 +372,12 @@ section {
   transform: translateY(0);
 }
 
+@media screen and (max-width: 767px) {
+  .services .row .col-md-6:nth-child(3) {
+    margin-top: 20px;
+  }
+}
+
 /* PLAN CSS */
 .plan {
   background: var(--secondary-bg);
