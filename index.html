@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=+, initial-scale=1.0" />
+    <title>Lakeside Gym & Fitness</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+    />
+    <!-- FONTAWESOME -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+    ></script>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="nav">
+          <div class="logo">
+            <a href="#"><img src="./assets/logo-1516c06a.png" alt="..." /></a>
+          </div>
+          <ul class="top-nav">
+            <li>
+              <a href="#home">home</a>
+            </li>
+            <li>
+              <a href="#about">about</a>
+            </li>
+            <li>
+              <a href="#services">services</a>
+            </li>
+            <li>
+              <a href="#plan">plan</a>
+            </li>
+            <li>
+              <a href="#contact">contact</a>
+            </li>
+          </ul>
+          <input type="checkbox" class="checkbox" onclick="side_toggle()" />
+          <label class="hamburger-lines">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+          </label>
+          <ul class="side-nav">
+            <li>
+              <a href="#home">home</a>
+            </li>
+            <li>
+              <a href="#about">about</a>
+            </li>
+            <li>
+              <a href="#services">services</a>
+            </li>
+            <li>
+              <a href="#plan">plan</a>
+            </li>
+            <li>
+              <a href="#contact">contact</a>
+            </li>
+            <button class="btn-register">become a member</button>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="home" id="home">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 left">
+              <h2>make your</h2>
+              <h1>body shape</h1>
+              <p>
+                In here we will help you to shape and build your ideal body and
+                live your life to the fullest.
+              </p>
+              <button class="btn-register">
+                become a member <i class="fas fa-arrow-right"></i>
+              </button>
+            </div>
+            <div class="col-md-6 right">
+              <img src="./assets/home-img.png" alt="..." class="img-fluid" />
+              <div class="triangle triangle-1"></div>
+              <div class="triangle triangle-2"></div>
+              <div class="triangle triangle-3"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 left">
+              <img src="./assets/choose-img.png" alt="..." class="img-fluid" />
+              <div class="triangle triangle-1"></div>
+              <div class="triangle triangle-2"></div>
+              <div class="triangle triangle-3"></div>
+            </div>
+            <div class="col-md-6 right">
+              <h2>about</h2>
+              <span>Lakeside Gym & Fitness</span>
+              <p>
+                Nestled near the beautiful Taal Volcano Lake, Lakeside Gym &
+                Fitness is built to make you strong.
+              </p>
+              <p>
+                As a member, you get access to beautifully designed gym space,
+                top-tier equipment, and amenities—as well as digital apps, and
+                experience the service that’ll make you feel cared for.
+              </p>
+              <p>
+                Every space is cleaned consistently during the day—with a deep
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="plan" id="plan">
+        <div class="container">
+          <div class="row gy-3">
+            <div class="title">
+              <h2>our <span>special plan</span></h2>
+            </div>
+            <div class="col-md-4">
+              <h2>black membership</h2>
+              <h1>₱500</h1>
+              <div class="details">
+                Inclusions: Black Member will be able to use all equipment from
+                6am to 9pm (Monday, Tuesday, Wednesday, Thursday, and Saturday)
+                for a maximum of 6 visits monthly.
+              </div>
+              <button class="btn-register">
+                purchase now <i class="fas fa-arrow-right"></i>
+              </button>
+            </div>
+            <div class="col-md-4 platinum">
+              <h2>platinum membership</h2>
+              <h1>₱1,500</h1>
+              <div class="details">
+                Inclusions: Exclusive use of the equipment every day from 9 p.m.
+                to 11 p.m. (you can still come everyday from opening time but
+                Platinum Members have the privilege to use the facility from 9pm
+                until closing time) Exclusive use every FRIDAY and SUNDAY
+              </div>
+              <button class="btn-register">
+                purchase now <i class="fas fa-arrow-right"></i>
+              </button>
+            </div>
+            <div class="col-md-4">
+              <h2>gold membership</h2>
+              <h1>₱800</h1>
+              <div class="details">
+                Inclusions: Gold Member will be able to use all equipment from
+                6am to 9pm (Monday, Tuesday, Wednesday, Thursday, and Saturday)
+                for a maximum of 12 visits monthly.
+              </div>
+              <button class="btn-register">
+                purchase now <i class="fas fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <div class="container">
+          <div class="row gy-3">
+            <div class="title">
+              <h2>contact <span>us</span></h2>
+            </div>
+            <div class="col-md-4">
+              <img
+                src="./assets/logo-1516c06a.png"
+                alt="..."
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-md-4 address">
+              <p>address</p>
+              <a href="https://goo.gl/maps/VympeZLRz7QACFFc8" target="_blank"
+                >parkville pointe, park avenue, balete batangas</a
+              >
+              <p>contact</p>
+              <a href="tel:0917 1895 623">0917 1895 623</a>
+              <p>email</p>
+              <a href="mailto:lakesidegymfitness@gmail.com"
+                >lakesidegymfitness@gmail.com</a
+              >
+            </div>
+            <div class="col-md-4 form">
+              <form action="#">
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    name=""
+                    id=""
+                    class="form-control"
+                    placeholder="Enter your name"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    name=""
+                    id=""
+                    class="form-control"
+                    placeholder="Enter your email"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <textarea
+                    name=""
+                    id=""
+                    cols="30"
+                    rows="10"
+                    class="form-control"
+                    placeholder="Enter your message"
+                    required
+                  ></textarea>
+                </div>
+                <div class="btn-container">
+                  <button class="btn-submit">send message</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
