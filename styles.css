@@ -185,9 +185,9 @@ header .side-nav,
 }
 
 /* HOME CSS */
-
 section {
   padding: 160px 0 0;
+  overflow: hidden;
 }
 
 .home .container {
